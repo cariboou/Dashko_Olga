@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Дополнительное задание</title>
@@ -14,23 +14,23 @@
 o | x | o</pre>
         <hr color="#A9A9A9">
         <h3>Тег address</h3>
-            <p><i>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</i></p>
+            <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
             <hr color="#A9A9A9">
         <h3>Семантические и функциональные строчные теги</h3>
             <p>Пожелания автора:
-            <br><S><font color="#FF0000">Данный текст убрать из монографии</font></S> 
-            и заменить его на <u><font color="#0000FF">вновь помещённый текст</font></u>.</p>
+            <br><del><font color="#FF0000">Данный текст убрать из монографии</font></del> 
+            и заменить его на <ins><font color="#0000FF">вновь помещённый текст</font></ins>.</p>
             <hr color="#A9A9A9">
         <h3>Работа со строчными и блоковыми цитатами</h3>
             <p>Цитата короткая:
             <br><cite>И всё­-таки она вертится!</cite></p>
             <p>Цитата занимающая несколько предложений:</p>
-            <ul>О сколько нам открытий чудных
+                <blockquote>О сколько нам открытий чудных
                 <br>Готовят просвещенья дух
                 <br>И опыт, сын ошибок трудных,
                 <br>И гений, парадоксов друг,
                 <br>И случай, бог изобретатель...
-            </ul>
+            </blockquote>
             <hr color="#A9A9A9">
         <h3>Семантические и функциональные строчные теги</h3>
             <p><strong>Тэг &#60;STRONG&#62;> делает данный фрагмент текста более важным.</strong> <em>Тэг &#60;em&#62; менее важным.</em>
@@ -38,11 +38,11 @@ o | x | o</pre>
             <hr color="#A9A9A9">
         <h3>Теги форматирования машинного языка</h3>
             <p>При выполнении программного кода на языке PERL:</p>
-            <pre>#!/usr/local/bin/perl
-print "Content‐type: text/html\n\n";
-print " &#60;H1&#62Hello World &#60;/H1&#62\n";</pre>
+            <code>#!/usr/local/bin/perl
+                <br>print "Content‐type: text/html\n\n";
+                <br>print " &#60;H1&#62Hello World &#60;/H1&#62\n";</code>
             <p>Программа выведет:</p>
-            <pre>Hello, World!</pre>
+            <TT>Hello, World!</TT>
             <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
             <h1>Hello, World!</h1>
             <hr color="#A9A9A9">
@@ -67,6 +67,6 @@ print " &#60;H1&#62Hello World &#60;/H1&#62\n";</pre>
             <p>ТФ: Y<i>(x)=e<sup>-i&#960;x</sup></i>+log<sub><i>x</i></sub>4</p>
             <hr color="#A9A9A9">
         <h3>Тег small внтури абзаца</h3>
-            <p align="right">Создано при помощи блокнота&#169;</p>
+            <p align="right"><small>Создано при помощи блокнота&#169;</small></p>
 </body>
 </html>
