@@ -1,0 +1,15 @@
+header, footer{
+    font-family: Bahnschrift
+}
+.art{
+    font-family: Mistral; 
+    font-size:19pt
+}
+h3.art{
+    font-size: 25pt; 
+    font-style: italic; 
+    text-decoration: underline
+}
+.head{
+    text-align: right; 
+}
